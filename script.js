@@ -40,3 +40,33 @@ if(aniversário == "Janeiro" || aniversário == "Dezembro"){
 }else{
     console.log("Seu aniversário ainda não chegou!")
 }
+
+//*** Exercícios bônus
+//4 - Criar uma condição que exiba uma mensagem no console se seu nome começar com a letra R
+const nome ="Dandara Aryadne"
+if (nome[0] == "R"){
+    console.log("Seu nome inicia com a letra R")
+}else{
+    console.log("Seu nome não se inicia com R")
+}
+//5 - Criar uma condição que exiba uma mensagem no console se seu sobrenome tenha mais de 6 letras OU seu nome começar com a letra E
+const sobrenome = "Jesus Ferreira"
+if(sobrenome.length>=6 || sobrenome.substring(0,1) == "E"){
+    console.log("Você tem um sobrenome com 6 letras ou seu nome começa com E")
+}else{
+    console.log("Seu sobrenome tem menos de 6 letras e seu nome não começa com E")
+}
+
+//Sem enunciado// 
+const nome ="Dandara Aryadne"
+if (nome[0] == "R"){
+    console.log("Seu nome inicia com a letra R")
+}else{
+    console.log("Seu nome não se inicia com R")
+}
+const sobrenome = "Jesus Ferreira"
+if(sobrenome.length>=6 || sobrenome.substring(0,1) == "E"){
+    console.log("Você tem um sobrenome com 6 letras ou seu nome começa com E")
+}else{
+    console.log("Seu sobrenome tem menos de 6 letras e seu nome não começa com E")
+}
